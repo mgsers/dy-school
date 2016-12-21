@@ -1,0 +1,46 @@
+/* background */
+.bg {width: 100%;height: 100%;background: url('../img/background.jpg') no-repeat;position: fixed;z-index: -1;}
+
+/* header */
+.header {width: 100%;height: 56px;background-color: #fff;}
+.header .header-main {width: 1278px;height: 56px;margin: 0 auto;}
+.logo, .news, .exit {display: block;}
+.logo {float: left;width: 170px;background: url('../img/icon.png') 14px 3px no-repeat;height: 56px; }
+.news, .exit {float: right;width: 90px;height: 24px;margin-top: 18px;line-height: 24px;font-size: 13px;color: 7074;}
+
+.container {width: 1278px;height: 600px;margin: 0 auto;}
+.main {width: 1036px;height: 800px;margin-left: 242px;background-color: ;margin-top: 30px;}
+
+/* silder */
+.silder {float: left;margin-top: 30px;width: 200px;height: 448px;background-color: #fff;border-radius: 4px;overflow: hidden;}
+.silder .silder-person {margin-bottom: 20px;width: 100%;height: 224px;background-color: #3c3a4a;text-align: center;}
+.silder-person .name {display: block;margin-bottom: 8px;font-size: 17px;color: #fff;}
+.silder-person .class {display: block;font-size: 12px;color: #fff;margin-bottom: 16px;}
+.silder-person .master {display: block;position: relative;font-size: 12px;color: #716f7b;}
+.silder-person .icon-im {position: absolute;top: -2px;right: 44px;width: 16px;height: 16px;background: url('../img/icon.png') -180px -305px no-repeat;}
+.person-logo {width: 100px;height: 100px;margin: 24px auto 12px auto;border-radius: 50%;border: 3px solid #4b4a57;overflow: hidden;box-shadow: 0 0 50px 2833;}
+.person-logo img {width: 94px;height: 94px;color: 3;}
+.silder-list li {position: relative;height: 42px;width: 100%;padding-left: 56px;font-size: 16px;color: #9ea4a7;font-weight: 400;line-height: 42px;border-left: 3px solid #fff;cursor: pointer;}
+.silder-list li.active {border-left: 3px solid #e7ba40;color: #3c3a4a;font-weight: 600;}
+.silder-list li:hover {color: #e7ba40}
+.silder-list i {position: absolute;width: 20px;height: 20px;top: 12px;left: 28px;}
+.silder-list .icon-plan {background: url('../img/icon.png') -54px -55px no-repeat;}
+.silder-list .icon-mark {background: url('../img/icon.png') -80px -55px no-repeat;}
+
+/* main */
+.main .title-box {width: 100%;height: 49px;background: url('../img/line.png') -34px no-repeat;}
+.main .title-word {font-size: 20px;font-weight: 600;text-align: center;line-height: 50px;}
+.main .plan-table {margin-top: 20px;width: 1036px;height: 536px;background-color: #fff;border-radius: 4px;}
+.plan-table .plan-table-head {width: 100%;height: 58px;}
+.plan-table .plan-table-head .today-btn {float: left;display: block;margin-left: 25px;width: 64px;height: 30px;margin-top: 12px;border: 1px solid #f0f0f2;text-align: center;line-height: 30px;border-radius: 4px;cursor: pointer;}
+.plan-table .plan-table-head .today-btn:hover {background-color: #e7ba40;border: 1px solid #e7ba40;color: #fff;}
+.plan-table .plan-table-head .month-select-box {float: left;display: block;width: 204px;height: 30px;margin-top: 12px;margin-left: 20px;background-color: #ccc;}
+.plan-table .plan-table-head .plan-table-tips1, .plan-table .plan-table-head .plan-table-tips2 {position: relative;display: block;margin-top: 18px;margin-right: 15px;float: right;width: 60px;height: 20px;text-align: center;line-height: 20px;}
+.plan-table .plan-table-head .plan-table-tips1:before, .plan-table .plan-table-head .plan-table-tips2:before {content: '';position: absolute;top: 2px;left: -2px;width: 0;height: 0;border-right: 16px solid transparent;}
+.plan-table .plan-table-head .plan-table-tips1:before {border-top: 16px solid #28b28b;}
+.plan-table .plan-table-head .plan-table-tips2:before {border-top: 16px solid #69cce0;}
+.plan-table table.plan-table-box {width: 100%;height: 478px;border:solid #f1f1f1; border-width:1px 0px 0px 1px;text-align: center;border-spacing: 0;border-collapse: collapse;}
+.plan-table table.plan-table-box td {border:solid #f1f1f1; border-width:0px 1px 1px 0px; padding:10px 0px;}
+.plan-table table.plan-table-box thead td{height: 72px;background-color: #fdfdfd;}
+.plan-table table.plan-table-box thead td.active {background-color: #faecc9;}
+.plan-table table.plan-table-box tbody td.active {background-color: #ddfaff;}
