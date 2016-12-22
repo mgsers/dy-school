@@ -9,25 +9,38 @@
 .news, .exit {float: right;width: 90px;height: 24px;margin-top: 18px;line-height: 24px;font-size: 13px;color: 7074;}
 
 .container {width: 1278px;height: 600px;margin: 0 auto;}
-.main {width: 1036px;height: 800px;margin-left: 242px;background-color: ;margin-top: 30px;}
+.main {width: 1036px;height: 1500px;margin-left: 242px;background-color: ;margin-top: 30px;}
+.tips {font-size: 14px;margin-left: 5px;}
 
 /* silder */
 .silder {float: left;margin-top: 30px;width: 200px;height: 448px;background-color: #fff;border-radius: 4px;overflow: hidden;}
 .silder .silder-person {margin-bottom: 20px;width: 100%;height: 224px;background-color: #3c3a4a;text-align: center;}
 .silder-person .name {display: block;margin-bottom: 8px;font-size: 17px;color: #fff;}
 .silder-person .class {display: block;font-size: 12px;color: #fff;margin-bottom: 16px;}
-.silder-person .master {display: block;position: relative;font-size: 12px;color: #716f7b;}
+.silder-person .real-name {margin-top: 15px;}
+.silder-person .master,.silder-person .real-name {display: block;position: relative;font-size: 12px;color: #716f7b;}
 .silder-person .icon-im {position: absolute;top: -2px;right: 44px;width: 16px;height: 16px;background: url('../img/icon.png') -180px -305px no-repeat;}
-.person-logo {width: 100px;height: 100px;margin: 24px auto 12px auto;border-radius: 50%;border: 3px solid #4b4a57;overflow: hidden;box-shadow: 0 0 50px 2833;}
+.person-logo {width: 100px;height: 100px;margin: 24px auto 12px auto;border-radius: 50%;border: 3px solid #4b4a57;overflow: hidden;box-shadow: 0 0 50px #292833;}
 .person-logo img {width: 94px;height: 94px;color: 3;}
 .silder-list li {position: relative;height: 42px;width: 100%;padding-left: 56px;font-size: 16px;color: #9ea4a7;font-weight: 400;line-height: 42px;border-left: 3px solid #fff;cursor: pointer;}
 .silder-list li.active {border-left: 3px solid #e7ba40;color: #3c3a4a;font-weight: 600;}
 .silder-list li:hover {color: #e7ba40}
 .silder-list i {position: absolute;width: 20px;height: 20px;top: 12px;left: 28px;}
-.silder-list .icon-plan {background: url('../img/icon.png') -54px -55px no-repeat;}
-.silder-list .icon-mark {background: url('../img/icon.png') -80px -55px no-repeat;}
-
-/* main */
+.silder-list li.active .icon-plan {background: url('../img/icon.png') -54px -54px no-repeat;}
+          .silder-list .icon-plan {background: url('../img/icon.png') -54px -83px no-repeat;}
+.silder-list li.active .icon-mark {background: url('../img/icon.png') -80px -54px no-repeat;}
+          .silder-list .icon-mark {background: url('../img/icon.png') -80px -84px no-repeat;}
+.silder-list li.active .icon-school {background: url('../img/icon.png') -30px -110px no-repeat;}
+          .silder-list .icon-school {background: url('../img/icon.png') -30px -135px no-repeat;}
+.silder-list li.active .icon-college {background: url('../img/icon.png') -155px -110px no-repeat;}
+          .silder-list .icon-college {background: url('../img/icon.png') -155px -135px no-repeat;}
+.silder-list li.active .icon-camp {background: url('../img/icon.png') -132px -109px no-repeat;}
+          .silder-list .icon-camp {background: url('../img/icon.png') -132px -135px no-repeat;}
+.silder-list li.active .icon-outline {background: url('../img/icon.png') -179px -110px no-repeat;}
+          .silder-list .icon-outline {background: url('../img/icon.png') -179px -135px no-repeat;}
+.silder-list li.active .icon-class {background: url('../img/icon.png') -106px -110px no-repeat;}
+          .silder-list .icon-class {background: url('../img/icon.png') -106px -135px no-repeat;}
+/* student-table main */
 .main .title-box {width: 100%;height: 49px;background: url('../img/line.png') -34px no-repeat;}
 .main .title-word {font-size: 20px;font-weight: 600;text-align: center;line-height: 50px;}
 .main .plan-table {margin-top: 20px;width: 1036px;height: 536px;background-color: #fff;border-radius: 4px;}
@@ -39,8 +52,29 @@
 .plan-table .plan-table-head .plan-table-tips1:before, .plan-table .plan-table-head .plan-table-tips2:before {content: '';position: absolute;top: 2px;left: -2px;width: 0;height: 0;border-right: 16px solid transparent;}
 .plan-table .plan-table-head .plan-table-tips1:before {border-top: 16px solid #28b28b;}
 .plan-table .plan-table-head .plan-table-tips2:before {border-top: 16px solid #69cce0;}
-.plan-table table.plan-table-box {width: 100%;height: 478px;border:solid #f1f1f1; border-width:1px 0px 0px 1px;text-align: center;border-spacing: 0;border-collapse: collapse;}
-.plan-table table.plan-table-box td {border:solid #f1f1f1; border-width:0px 1px 1px 0px; padding:10px 0px;}
+.plan-table table.plan-table-box {width: 100%;height: 478px;border:solid #f1f1f1; border-width:1px 0px 0px 1px;text-align: center;border-spacing: 0;border-collapse: collapse;table-layout: fixed;}
+.plan-table table.plan-table-box td {border:solid #f1f1f1; border-width:0px 1px 1px 0px; padding:0px;}
 .plan-table table.plan-table-box thead td{height: 72px;background-color: #fdfdfd;line-height: 20px;}
 .plan-table table.plan-table-box thead td.active {background-color: #faecc9;}
-.plan-table table.plan-table-box tbody td.active {background-color: #ddfaff;}
+.plan-table table.plan-table-box tbody td.active {background-color: ;}
+.plan-table-box tbody tr {vertical-align: top;}
+.plan-table-box tbody li {position: relative;padding: 20px 20px;line-height: 20px;border-bottom: 1px solid #f1f1f1;cursor: pointer;}
+.plan-table-box tbody li:hover {background-color: #f6f9ff;box-shadow: 0 5px 30px #e4ebf1;}
+.plan-table-box tbody li:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #28b28b;}
+.exam-box {width: 100%;margin-top: 15px;}
+.exam-box .exam-box-select span {display: inline-block;margin-right: 10px;padding: 6px 25px;font-size: 16px;color: #687074;cursor: pointer;}
+.exam-box .exam-box-select span.active {background-color: #ebebec;color: #000;border-radius: 20px;}
+.exam-box .exam-box-list {width: 100%;margin-top: 35px;}
+.exam-box .exam-box-list ul {margin-right: -19px;}
+.exam-box .exam-box-list li {display: inline-block;margin-right: 19px;padding: 20px;width: 330px;height: 140px;background-color: #fff;cursor: pointer;}
+.exam-box .exam-box-list li:hover {box-shadow: 0 5px 30px #e4ebf1;}
+.exam-box-list .end-time {display: inline-block;margin-top: 10px;padding: 4px 8px;border-radius: 20px;font-size: 12px;color: #fff;}
+.exam-box-list .end-time.now {background-color: #f36d38;}
+.exam-box-list .end-time.unnow {background-color: #69cce0;}
+
+/* master-table main */
+.main .master-table-title {padding: 30px 25px;background-color: #fff;}
+.master-table-title h2 {color: #3c3a4a;}
+.master-table-select {width: 100%;height: 136px;background-color: #fff;border-bottom: 1px solid #f1f1f1;}
+.master-table-select .select-box {width: 988px;height: 80px;margin: 0 auto;background-color: #ccc;text-align: center;}
+.master-table-select .select-box span {display: inline-block;width: 110px;height: 70px;margin: 0 auto;font-size: 16px;}
