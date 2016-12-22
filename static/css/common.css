@@ -9,7 +9,7 @@
 .news, .exit {float: right;width: 90px;height: 24px;margin-top: 18px;line-height: 24px;font-size: 13px;color: 7074;}
 
 .container {width: 1278px;height: 600px;margin: 0 auto;}
-.main {width: 1036px;height: 1500px;margin-left: 242px;background-color: ;margin-top: 30px;}
+.main {width: 1036px;height: auto;margin-left: 242px;background-color: ;margin-top: 30px;}
 .tips {font-size: 14px;margin-left: 5px;}
 
 /* silder */
@@ -43,7 +43,7 @@
 /* student-table main */
 .main .title-box {width: 100%;height: 49px;background: url('../img/line.png') -34px no-repeat;}
 .main .title-word {font-size: 20px;font-weight: 600;text-align: center;line-height: 50px;}
-.main .plan-table {margin-top: 20px;width: 1036px;height: 536px;background-color: #fff;border-radius: 4px;}
+.main .plan-table {margin-top: 20px;width: 1036px;height: auto;background-color: #fff;border-radius: 4px;}
 .plan-table .plan-table-head {width: 100%;height: 58px;}
 .plan-table .plan-table-head .today-btn {float: left;display: block;margin-left: 25px;width: 64px;height: 30px;margin-top: 12px;border: 1px solid #f0f0f2;text-align: center;line-height: 30px;border-radius: 4px;cursor: pointer;}
 .plan-table .plan-table-head .today-btn:hover {background-color: #e7ba40;border: 1px solid #e7ba40;color: #fff;}
@@ -60,7 +60,11 @@
 .plan-table-box tbody tr {vertical-align: top;}
 .plan-table-box tbody li {position: relative;padding: 20px 20px;line-height: 20px;border-bottom: 1px solid #f1f1f1;cursor: pointer;}
 .plan-table-box tbody li:hover {background-color: #f6f9ff;box-shadow: 0 5px 30px #e4ebf1;}
-.plan-table-box tbody li:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #28b28b;}
+.plan-table-box tbody li.offline:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #28b28b;}
+.plan-table-box tbody li.online:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #69cce0;}
+.plan-table-box tbody li.task:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 34px solid transparent;border-top: 30px solid #fc583d;}
+.plan-table-box tbody li.task:after {content: '任';position: absolute;top: 0;left: 3px;color: #fff;font-size: 12px;}
+
 .exam-box {width: 100%;margin-top: 15px;}
 .exam-box .exam-box-select span {display: inline-block;margin-right: 10px;padding: 6px 25px;font-size: 16px;color: #687074;cursor: pointer;}
 .exam-box .exam-box-select span.active {background-color: #ebebec;color: #000;border-radius: 20px;}
@@ -76,5 +80,33 @@
 .main .master-table-title {padding: 30px 25px;background-color: #fff;}
 .master-table-title h2 {color: #3c3a4a;}
 .master-table-select {width: 100%;height: 136px;background-color: #fff;border-bottom: 1px solid #f1f1f1;}
-.master-table-select .select-box {width: 988px;height: 80px;margin: 0 auto;background-color: #ccc;text-align: center;}
-.master-table-select .select-box span {display: inline-block;width: 110px;height: 70px;margin: 0 auto;font-size: 16px;}
+.master-table-select .select-box {width: 988px;height: 80px;margin: 0 auto;text-align: center;line-height: 80px;border-top: 1px solid #f1f1f1;}
+.master-table-select .select-box span {display: inline-block;width: 110px;height: 60px;margin: 0 auto;font-size: 16px;cursor: pointer;}
+.master-table-select .select-box span.active {border-bottom: 2px solid #e7ba40;color: #e7ba40;}
+.table-change {position: relative;padding-left: 30px;}
+.table-change i {position: absolute;width: 24px;height: 24px;cursor: pointer;}
+.table-change .week {background: url('../img/icon.png') -54px -82px no-repeat;}
+.table-change .week.active {background: url('../img/icon.png') -54px -54px no-repeat;}
+.table-change .list {background: url('../img/icon.png') -80px -83px no-repeat;left: 70px;}
+.table-change .list.active {background: url('../img/icon.png') -80px -54px no-repeat;}
+.plan-table-month ,.plan-table-week {display: block;float: right;width: 58px;height: 28px;margin-top: 14px;border: 1px solid #f1f1f1;text-align: center;line-height: 28px;cursor: pointer;border-radius: 4px;}
+.plan-table-month {margin-right: 25px;margin-left: -1px;}
+.plan-table-month.active ,.plan-table-week.active {background-color: #e7ba40;color: #fff;}
+.plan-table-box.month {height: auto !important;}
+.plan-table-box.month tbody td li:first-child {height: 36px;line-height: 0;background-color: #fdfdfd;}
+.plan-table-box.month tbody td {height: 284px;}
+.plan-table-box.month tbody li:first-child:hover {box-shadow: 0 0 0 #fff;cursor: default;}
+.plan-table-more {height: 35px;color: #e7ba40;line-height: 0px !important;}
+
+/* master-class-list main */
+.master-list-select {margin-top: -1px;height: 45px;width: 100%;background-color: #fff;border-bottom: 1px solid #f1f1f1;}
+.master-list-select span {display: block;float: left;background-color: #fafafa;width: 138px;height: 45px;text-align: center;line-height: 45px;font-size: 16px;border-bottom: 1px solid #f1f1f1;cursor: pointer;}
+.master-list-select span:first-child {margin-left: 28px;}
+.master-list-select span.active {background-color: #fff;border: 1px solid #f1f1f1;border-bottom: 1px solid #fff;}
+.master-class-title {width: 100%;height: 64px;background-color: #fff;line-height: 64px;}
+.master-class-title .title {margin-left: 28px;}
+.master-class-title .time input {width: 230px;height: 30px;border: 1px solid #ccc;}
+.master-class-title .select select {width: 150px;height: 30px;border: 1px solid #ccc;color: #ccc;outline-style: none;}
+.master-class-title .search {float: right;margin-right: 58px;position: relative;}
+.master-class-title .search input {width: 170px;height: 30px;text-indent: 10px;}
+.icon-search {width: 30px;height: 30px;position: absolute;top: 18px;right: -29px;background-color: #fcfcfc;border: 1px solid #a9a9a9;cursor: pointer;background: url('../img/icon.png') -161px -257px no-repeat;}

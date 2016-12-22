@@ -353,6 +353,10 @@ textarea:-ms-input-placeholder {
   color: #909699;
 }
 
+.bdr4 {
+  border-radius: 4px;
+}
+
 .border-dbdb {
     border: 1px solid #EEEBEB;
     box-shadow: 0 0 5px #e4ebf1;
