@@ -4,9 +4,12 @@
 /* header */
 .header {width: 100%;height: 56px;background-color: #fff;}
 .header .header-main {width: 1278px;height: 56px;margin: 0 auto;}
-.logo, .news, .exit {display: block;}
+.logo,
+.news,
+.exit {display: block;}
 .logo {float: left;width: 170px;background: url('../img/icon.png') 14px 3px no-repeat;height: 56px; }
-.news, .exit {float: right;width: 90px;height: 24px;margin-top: 18px;line-height: 24px;font-size: 13px;color: 7074;}
+.news,
+.exit {float: right;width: 90px;height: 24px;margin-top: 18px;line-height: 24px;font-size: 13px;color: 7074;}
 
 .container {width: 1278px;height: 600px;margin: 0 auto;}
 .main {width: 1036px;height: auto;margin-left: 242px;background-color: ;margin-top: 30px;}
@@ -18,7 +21,8 @@
 .silder-person .name {display: block;margin-bottom: 8px;font-size: 17px;color: #fff;}
 .silder-person .class {display: block;font-size: 12px;color: #fff;margin-bottom: 16px;}
 .silder-person .real-name {margin-top: 15px;}
-.silder-person .master,.silder-person .real-name {display: block;position: relative;font-size: 12px;color: #716f7b;}
+.silder-person .master,
+.silder-person .real-name {display: block;position: relative;font-size: 12px;color: #716f7b;}
 .silder-person .icon-im {position: absolute;top: -2px;right: 44px;width: 16px;height: 16px;background: url('../img/icon.png') -180px -305px no-repeat;}
 .person-logo {width: 100px;height: 100px;margin: 24px auto 12px auto;border-radius: 50%;border: 3px solid #4b4a57;overflow: hidden;box-shadow: 0 0 50px #292833;}
 .person-logo img {width: 94px;height: 94px;color: 3;}
@@ -40,16 +44,19 @@
           .silder-list .icon-outline {background: url('../img/icon.png') -179px -135px no-repeat;}
 .silder-list li.active .icon-class {background: url('../img/icon.png') -106px -110px no-repeat;}
           .silder-list .icon-class {background: url('../img/icon.png') -106px -135px no-repeat;}
-/* student-table main */
+
 .main .title-box {width: 100%;height: 49px;background: url('../img/line.png') -34px no-repeat;}
 .main .title-word {font-size: 20px;font-weight: 600;text-align: center;line-height: 50px;}
+/* delete  student-table main */
 .main .plan-table {margin-top: 20px;width: 1036px;height: auto;background-color: #fff;border-radius: 4px;}
 .plan-table .plan-table-head {width: 100%;height: 58px;}
 .plan-table .plan-table-head .today-btn {float: left;display: block;margin-left: 25px;width: 64px;height: 30px;margin-top: 12px;border: 1px solid #f0f0f2;text-align: center;line-height: 30px;border-radius: 4px;cursor: pointer;}
 .plan-table .plan-table-head .today-btn:hover {background-color: #e7ba40;border: 1px solid #e7ba40;color: #fff;}
 .plan-table .plan-table-head .month-select-box {float: left;display: block;width: 204px;height: 30px;margin-top: 12px;margin-left: 20px;background-color: #ccc;}
-.plan-table .plan-table-head .plan-table-tips1, .plan-table .plan-table-head .plan-table-tips2 {position: relative;display: block;margin-top: 18px;margin-right: 15px;float: right;width: 60px;height: 20px;text-align: center;line-height: 20px;}
-.plan-table .plan-table-head .plan-table-tips1:before, .plan-table .plan-table-head .plan-table-tips2:before {content: '';position: absolute;top: 2px;left: -2px;width: 0;height: 0;border-right: 16px solid transparent;}
+.plan-table .plan-table-head .plan-table-tips1,
+.plan-table .plan-table-head .plan-table-tips2 {position: relative;display: block;margin-top: 18px;margin-right: 15px;float: right;width: 60px;height: 20px;text-align: center;line-height: 20px;}
+.plan-table .plan-table-head .plan-table-tips1:before,
+.plan-table .plan-table-head .plan-table-tips2:before {content: '';position: absolute;top: 2px;left: -2px;width: 0;height: 0;border-right: 16px solid transparent;}
 .plan-table .plan-table-head .plan-table-tips1:before {border-top: 16px solid #28b28b;}
 .plan-table .plan-table-head .plan-table-tips2:before {border-top: 16px solid #69cce0;}
 .plan-table table.plan-table-box {width: 100%;height: 478px;border:solid #f1f1f1; border-width:1px 0px 0px 1px;text-align: center;border-spacing: 0;border-collapse: collapse;table-layout: fixed;}
@@ -64,6 +71,27 @@
 .plan-table-box tbody li.online:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #69cce0;}
 .plan-table-box tbody li.task:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 34px solid transparent;border-top: 30px solid #fc583d;}
 .plan-table-box tbody li.task:after {content: '任';position: absolute;top: 0;left: 3px;color: #fff;font-size: 12px;}
+
+/* div模拟周table */
+.week-thead {width: 100%;height: 72px;border-top: 1px solid #f1f1f1;border-bottom: 1px solid #f1f1f1;background-color: #fdfdfd;}
+.month-thead {width: 100%;height: 40px;border-top: 1px solid #f1f1f1;background-color: #fdfdfd;}
+.week-thead .week-thead-item {float: left;width: 14.2857143%;height: 72px;text-align: center;line-height: 20px;padding-top: 18px;border-right: 1px solid #f1f1f1;}
+.month-thead .month-thead-item {float: left;width: 14.2857143%;height: 40px;text-align: center;line-height: 20px;padding-top: 10px;border-right: 1px solid #f1f1f1;}
+.week-tbody {width: 100%;min-height: 404px;}
+.month-tbody {width: 100%;height: auto;}
+.week-tbody-item {float: left;width: 14.2857143%;min-height: 404px;border-right: 1px solid #f1f1f1;}
+.month-tbody-item {float: left;width: 14.2857143%;height: 284px;border-right: 1px solid #f1f1f1;}
+.plan-table-more {display: inline-block;color: #e7ba40;margin-left: 10px;margin-top: 10px;}
+.plan-table-add {display: inline-block;width: 16px;height: 16px;margin-left: 50px;background: url('../img/add.png') no-repeat;}
+
+.week-tbody-item li,
+.month-tbody-item li {position: relative;padding: 20px 20px;line-height: 20px;border-bottom: 1px solid #f1f1f1;cursor: pointer;}
+.week-tbody-item li:hover,
+.month-tbody-item li:hover {background-color: #f6f9ff;box-shadow: 0 5px 30px #e4ebf1;}
+.week-tbody-item li.offline:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #28b28b;}
+.week-tbody-item li.online:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 16px solid transparent;border-top: 16px solid #69cce0;}
+.month-tbody-item li.task:before {content: '';position: absolute;top: 0;left: 0;width: 0;height: 0;border-right: 34px solid transparent;border-top: 30px solid #fc583d;}
+.month-tbody-item li.task:after {content: '任';position: absolute;top: 0;left: 3px;color: #fff;font-size: 12px;}
 
 .exam-box {width: 100%;margin-top: 15px;}
 .exam-box .exam-box-select span {display: inline-block;margin-right: 10px;padding: 6px 25px;font-size: 16px;color: #687074;cursor: pointer;}
@@ -89,14 +117,18 @@
 .table-change .week.active {background: url('../img/icon.png') -54px -54px no-repeat;}
 .table-change .list {background: url('../img/icon.png') -80px -83px no-repeat;left: 70px;}
 .table-change .list.active {background: url('../img/icon.png') -80px -54px no-repeat;}
-.plan-table-month ,.plan-table-week {display: block;float: right;width: 58px;height: 28px;margin-top: 14px;border: 1px solid #f1f1f1;text-align: center;line-height: 28px;cursor: pointer;border-radius: 4px;}
+.plan-table-month ,
+.plan-table-week {display: block;float: right;width: 58px;height: 28px;margin-top: 14px;border: 1px solid #f1f1f1;text-align: center;line-height: 28px;cursor: pointer;border-radius: 4px;}
 .plan-table-month {margin-right: 25px;margin-left: -1px;}
-.plan-table-month.active ,.plan-table-week.active {background-color: #e7ba40;color: #fff;}
+.plan-table-month.active ,
+.plan-table-week.active {background-color: #e7ba40;color: #fff;}
 .plan-table-box.month {height: auto !important;}
 .plan-table-box.month tbody td li:first-child {height: 36px;line-height: 0;background-color: #fdfdfd;}
+.month-tbody-item li:first-child {height: 36px;line-height: 0;background-color: #fdfdfd;text-align: center;border-top: 1px solid #f1f1f1;}
+.month-tbody-item li:first-child:hover {box-shadow: 0 0 0 #fff;cursor: default;}
 .plan-table-box.month tbody td {height: 284px;}
 .plan-table-box.month tbody li:first-child:hover {box-shadow: 0 0 0 #fff;cursor: default;}
-.plan-table-more {height: 35px;color: #e7ba40;line-height: 0px !important;}
+
 
 /* master-class-list main */
 .master-list-select {margin-top: -1px;height: 45px;width: 100%;background-color: #fff;border-bottom: 1px solid #f1f1f1;}
@@ -110,3 +142,8 @@
 .master-class-title .search {float: right;margin-right: 58px;position: relative;}
 .master-class-title .search input {width: 170px;height: 30px;text-indent: 10px;}
 .icon-search {width: 30px;height: 30px;position: absolute;top: 18px;right: -29px;background-color: #fcfcfc;border: 1px solid #a9a9a9;cursor: pointer;background: url('../img/icon.png') -161px -257px no-repeat;}
+.class-list-table {width: 100%;table-layout: fixed;text-align: center;background-color: #fff;border-spacing: 0;border-collapse: collapse;}
+.class-list-table thead tr {height: 55px;background-color: #fafafa;border-bottom: 2px solid #e7ba40;}
+.class-list-table tbody tr {height: 55px;border-bottom: 1px solid #f2f2f2;}
+.class-list-table tbody tr:hover {background-color: #fafafa;}
+.class-list-tips {display: inline-block;padding: 2px 8px;margin-left: 2px;}
