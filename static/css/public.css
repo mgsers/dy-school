@@ -147,6 +147,10 @@ textarea:-ms-input-placeholder {
     margin-bottom: 15px;
 }
 
+.g-mb30 {
+    margin-bottom: 30px;
+}
+
 .g-ml15 {
     margin-left: 15px;
 }
@@ -163,6 +167,10 @@ textarea:-ms-input-placeholder {
     margin-left: 20px;
 }
 
+.g-ml95 {
+    margin-left: 95px;
+}
+
 .g-mr20 {
     margin-right: 20px;
 }
@@ -173,6 +181,14 @@ textarea:-ms-input-placeholder {
 
 .g-mt30 {
     margin-top: 30px;
+}
+
+.g-mt165 {
+    margin-top: 165px;
+}
+
+.g-mt185 {
+    margin-top: 185px;
 }
 
 .g-pl20 {
@@ -217,6 +233,10 @@ textarea:-ms-input-placeholder {
 
 .g-pl15 {
     padding-left: 15px;
+}
+
+.g-pl14 {
+    padding-left: 14px;
 }
 
 .g-pt20 {
@@ -283,6 +303,10 @@ textarea:-ms-input-placeholder {
     font-size: 18px;
 }
 
+.f-z17 {
+    font-size: 17px;
+}
+
 .f-z16 {
     font-size: 16px;
 }
@@ -301,6 +325,10 @@ textarea:-ms-input-placeholder {
 
 .w-1000 {
     width: 1000px;
+}
+
+.f-w400 {
+    font-weight: 400;
 }
 
 .color000 {
@@ -327,6 +355,10 @@ textarea:-ms-input-placeholder {
     color: #82888b;
 }
 
+.colorfc5 {
+    color: #fc583d;
+}
+
 .color9da {
     color: #9da3a6;
 }
@@ -341,6 +373,10 @@ textarea:-ms-input-placeholder {
 
 .bt {
     border-top: 1px solid #dbdbdb;
+}
+
+.btf1 {
+    border-top: 1px solid #f1f1f1;
 }
 
 .bm {

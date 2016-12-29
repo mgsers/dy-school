@@ -301,7 +301,7 @@
 .class-edit .icon-del {position: absolute;top: 10px;left: 60px;width: 20px;height: 20px;background: url('../img/icon.png') -31px -403px no-repeat;}
 
 /* yuan-class-build */
-.class-build-box {padding: 40px 45px;width: 100%;height: 600px;font-size: 16px;color: #333;background-color: #fff;}
+.class-build-box {padding: 40px 45px;width: 100%;height: 1600px;font-size: 16px;color: #333;background-color: #fff;}
 .class-build-box input,
 .class-build-box .attr-box {border: 1px solid #ddd;font-size: 18px;text-indent: 10px;vertical-align: middle;}
 .class-build-box .attr-box {display: inline-block;width: 300px;height: 70px;}
@@ -314,3 +314,47 @@
 .attrNum .plus {display: inline-block;width: 30px;height: 30px;text-align: center;border: 1px solid #ddd;line-height: 26px;}
 .attrNum input {width: 50px;height: 30px;font-size: 14px;}
 .class-build-box .build-tips {font-size: 12px;line-height: 26px;margin-left: 115px;color: #aaa;}
+.imgUpload,
+.fileUpload {position: relative;margin-left: 2px;display: inline-block;vertical-align: middle;zoom: 1;cursor: pointer;}
+.imgUploadBtn,
+.fileUploadBtn {width: 100px;height: 30px;line-height: 30px;background-color: #f5f5f5;border: 1px solid #ddd;text-align: center;cursor: pointer;}
+.newfile,
+.newfile2 {width: 100px;height: 40px;position: absolute;top: 0;left: 0;opacity:0;}
+.img-box {margin-left: 86px;width: 300px;height: 170px;border: 1px solid #ddd;}
+.class-textarea {margin-left: 6px;border: 1px solid #ddd;vertical-align: middle;font-size: 15px;padding: 10px;}
+.fileList {margin-left: 86px;width: 330px;font-size: 14px;}
+.fileItem {padding-left: 30px;margin-bottom: 10px;width: 100%;height: 40px;border: 1px solid #ddd;line-height: 40px;}
+.removeItem {float: right;margin-right: 20px;cursor: pointer;}
+.class-build-btn {display: block;margin: 200px auto 0 auto;width: 100px;height: 35px;border-radius: 4px;background-color: #e7ba40;color: #fff;border: none;cursor: pointer;}
+.class-build-btn:hover {background-color: #eccb73;}
+
+/* yuan-manage */
+.set-form {width: 100%;padding-left: 24px;padding-right: 24px;margin: 0 auto;height: 370px;border-top: 1px solid #f1f1f1;background-color: #fff;font-size: 15px;}
+.icon-edit {position: absolute;top: -2px;right: -25px;width: 20px;height: 20px;background: url('../img/icon.png') -102px -405px no-repeat;cursor: pointer;}
+.attr-style-box {display: inline-block;width: 800px;vertical-align: top;}
+.attr-style {float: left;padding: 10px 15px;margin-right: 20px;margin-bottom: 15px;width: 226px;height: 92px;border: 1px solid #999;line-height: 17px;}
+
+/* yuan-camp-select */
+.camp-select {width: 452px;height: 50px;position: relative;margin: 80px auto 30px auto;}
+.camp-selector {display: inline-block;width: 148px;height: 50px;line-height: 50px;font-size: 18px;text-align: center;cursor: pointer;}
+.camp-selector.active {border-bottom: 3px solid #e7ba40;color: #e7ba40;}
+.none {width: 100%;height: 330px;text-align: center;color: #bfbfbf;}
+.none img {margin: 10px auto;display: block;margin-top: 70px;margin-bottom: 25px;}
+.camp-list-box {width: 100%;height: auto;padding: 30px 40px;}
+.camp-list-box ul {margin-right: -30px;}
+.camp-list-box ul li {float: left;position: relative;margin-right: 28px;margin-bottom: 30px;width: 300px;height: 228px;text-align: center;background-color: #fff;box-shadow: 0 0 10px #e4ebf1;border-radius: 4px;cursor: pointer;overflow: hidden;}
+.camp-list-box li p {font-size: 16px;line-height: 44px;}
+.camp-list-box li .icon-add {width: 45px;height: 45px;margin: 90px auto;background: url(../img/icon.png) -140px -340px no-repeat;}
+.camp-build-box {width: 100%;height: auto;padding: 10px 80px;margin-top: -20px;background-color: #fff;}
+.camp-build-box p {margin-bottom: 20px;line-height: 30px;}
+.camp-build-box input {margin-left: 20px;width: 218px;height: 30px;font-size: 14px;border: 1px solid #ddd;text-indent: 10px;vertical-align: middle;}
+.camp-build-box textarea {margin-left: 20px;border: 1px solid #ddd;vertical-align: middle;}
+.camp-build-btn {display: block;margin: 55px auto 0 auto;width: 100px;height: 35px;border-radius: 4px;background-color: #e7ba40;color: #fff;border: none;cursor: pointer;}
+.textarea-text {width: 500px;display: inline-block;vertical-align: middle;text-indent: 28px;}
+.camp-build-box .camp-build-select {height: 30px;border: 1px solid #ddd;}
+.camp-build-box .camp-name {margin-left: 16px;width: 110px;}
+.camp-build-box .camp-type {margin-left: 10px;}
+.camp-build-box .camp-outline {margin-left: 15px;width: 150px;}
+.camp-build-tips {display: block;margin-left: 100px;color: #ccc;font-size: 12px;}
+.master-table-select .boss {position: relative;width: 100px;height: 20px;margin: 10px auto;line-height: 20px;text-align: left;cursor: pointer;}
+.master-table-select .boss .icon-im {position: absolute;top: 2px;right: -14px;width: 16px;height: 16px;background: url('../img/icon.png') -180px -305px no-repeat;}
