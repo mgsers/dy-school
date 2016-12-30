@@ -5,6 +5,8 @@
     <title>多益大学</title>
     <link rel="stylesheet" href="../static/css/public.css" media="screen" title="no title">
     <link rel="stylesheet" href="../static/css/common.css" media="screen" title="no title">
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+    <script src="../static/js/layer/layer.js"></script>
   </head>
   <body>
     <div class="bg"></div>
@@ -34,7 +36,7 @@
           <h2>多益大学能力属性设置</h2>
         </div>
         <div class="set-form" style="height:100px;">
-          <div class="g-ml15 g-mt30">能力发展方向：<span class="color999 g-ml15 relative">数值，运营，系统<i class="icon-edit"></i></span></div>
+          <div class="g-ml15 g-mt30">能力发展方向：<span class="color999 g-ml15 relative">数值，运营，系统<i class="icon-edit" id="test1"></i></span></div>
         </div>
         <div class="master-table-title">
           <h2>多益大学机构设置</h2>
@@ -80,4 +82,14 @@
       </div>
     </div>
   </body>
+  <script>
+    $('#test1').on('click', function(){
+      layer.open({
+        type: 1,
+        area: ['600px', '360px'],
+        shadeClose: true, //点击遮罩关闭
+        content: '\<\div style="padding:20px;">自定义内容\<\/div>'
+        });
+      });
+  </script>
 </html>

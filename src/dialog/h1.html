@@ -1,0 +1,57 @@
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 20px 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  .h1 .time,
+  .h1 .place,
+  .h1 .rework {width: 100%;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #f1f1f1;}
+  .h1 .start-time ,
+  .h1 .end-time {display: inline-block;width: 100px;height: 30px;border: 1px solid #ccc;vertical-align: middle;}
+  .h1 .start-time {margin-left: 30px;}
+  .h1 .place-box {display: inline-block;padding-left: 10px;margin-left: 30px;width: 290px;height: 120px;color: #999;background-color: #FCFCFC;vertical-align: middle;}
+  .h1 .rework-box {width: 100%;margin-top: 15px;}
+  .h1 .rework-box span {display: inline-block;margin-left: 10px;width: 30px;height: 30px;color: #ddd;cursor: pointer;border-radius: 50%;overflow: hidden;text-align: center;line-height: 30px;box-shadow: 0 0 10px #e4ebf1;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box h1">
+  <div class="time">
+    课程开放时间
+    <div class="start-time"></div>
+    至
+    <div class="end-time"></div>
+  </div>
+  <div class="place">
+    安排线下授课
+    <div class="place-box">
+      <p>上课时间：2017年3月3日 10：00至12：00</p>
+      <p>上课地点：多益1-1-1培训室</p>
+      <p>上课讲师：布教授</p>
+    </div>
+  </div>
+  <div class="rework">
+    重修学员（22）
+    <div class="rework-box">
+      <span>
+        <img src="" alt="" width="30" height="30">
+      </span>
+      <span>
+        <img src="" alt="" width="30" height="30">
+      </span>
+      <span>
+        <img src="" alt="" width="30" height="30">
+      </span>
+      <span>
+        <img src="" alt="" width="30" height="30">
+      </span>
+      <span>
+        +
+      </span>
+    </div>
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">确定</button>
+  </div>
+</div>

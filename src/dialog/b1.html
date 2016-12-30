@@ -1,0 +1,33 @@
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-size: 14px;}
+  .box {padding: 5px 40px 10px 40px;}
+  .b1 p {line-height: 50px;color: #666;}
+  .i-tips {color: red;}
+  .b1 input {width: 160px;height: 30px;margin-left: 10px;border: 1px solid #ccc;font-size: 14px;text-indent: 10px;outline: none;}
+  .b1 .attr-box {width: 100%;height: 100px;margin-top: 15px;}
+  .b1 .attr-box span {display: inline-block;margin-right: 10px;margin-bottom: 15px;padding: 5px 15px;background-color: #f1f1f1;border-color: #dedede;border-radius: 12px;cursor: pointer;}
+  .b1 .attr-box span.active {background-color: #e7ba40;color: #fff;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+  .layer-btn .delect {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #f1f1f1;border-color: #dedede;color: #000;outline: none;}
+</style>
+<div class="box b1">
+  <p><span class="i-tips">*</span> 类型名称: <input type="text"></p>
+  <p><span class="i-tips">*</span> 类型能力属性:</p>
+  <div class="attr-box">
+    <span class="active">数值</span>
+    <span>运营</span>
+    <span>测试</span>
+    <span>项目管理</span>
+    <span>项目管理</span>
+    <span>项目管理</span>
+    <span>项目管理</span>
+    <div class="layer-btn">
+      <button class="delect" type="button">删除该类型</button>
+      <button class="commit" type="button">保存</button>
+    </div>
+  </div>
+</div>

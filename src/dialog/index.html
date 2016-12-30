@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <script src="../../static/js/jquery-1.11.1.min.js"></script>
+    <script src="../../static/js/layer/layer.js"></script>
+    <style media="screen">
+      .btn-box a {display: inline-block;margin-bottom: 10px;padding: 5px 10px;background-color: #EEEBEB;border: 1px solid #ccc;cursor: pointer;}
+      .btn-box {width: 1000px;height: 500px;margin: 100px auto;}
+    </style>
+  </head>
+  <body>
+    <div class="btn-box">
+      <a class="a1">学校管理1</a>
+      <a class="a2">学校管理2</a>
+      <a class="b1">学校详情1</a>
+      <a class="b2">学校详情2</a>
+      <a class="c1">校长办 日程表-月</a>
+      <a class="d1">院长办 训练营管理 进行中</a>
+      <a class="e1">院长办 训练营管理 进行中 详情</a>
+      <a class="f1">院长办 训练营管理 未开始 详情</a>
+      <a class="g1">教务管理办公室 编辑人员</a>
+      <a class="h1">院教务处 日程表目录-课程</a>
+      <a class="h2">院教务处 日程表目录-课程2</a>
+    </div>
+  </body>
+  <script type="text/javascript">
+    // 默认配置项
+      layer.config({
+        move: false,
+        shadeClose: true
+      })
+    // a1
+    $('.a1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '编辑能力发展方向',
+        area: ['500px', '346px'],
+        content: ['a1.html','no']
+        });
+    })
+
+    //a2
+    $('.a2').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '编辑角色',
+        area: ['500px', '500px'],
+        content: ['a2.html','no']
+        });
+    })
+
+    //b1
+    $('.b1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '编辑类型',
+        area: ['500px', '355px'],
+        content: ['b1.html','no']
+        });
+    })
+
+    //b2
+    $('.b2').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '编辑角色',
+        area: ['500px', '500px'],
+        content: ['b2.html','no']
+        });
+    })
+
+    //c1
+    $('.c1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '3月33日（周六）',
+        area: ['250px', '350px'],
+        content: ['c1.html','no']
+        });
+    })
+
+    //d1
+    $('.d1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '创建训练营',
+        area: ['480px', '170px'],
+        content: ['d1.html','no']
+        });
+    })
+
+    //e1
+    $('.e1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '删除训练营',
+        area: ['480px', '180px'],
+        content: ['e1.html','no']
+        });
+    })
+
+    //f1
+    $('.f1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '删除训练营',
+        area: ['480px', '160px'],
+        content: ['f1.html','no']
+        });
+    })
+
+    //g1
+    $('.g1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '批量导入人员名单',
+        area: ['480px', '240px'],
+        content: ['g1.html','no']
+        });
+    })
+
+    //h1
+    $('.h1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '初级测试技能',
+        area: ['480px', '480px'],
+        content: ['h1.html','no']
+        });
+    })
+
+    //h2
+    $('.h2').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '初级测试技能作业',
+        area: ['480px', '710px'],
+        content: ['h2.html','no']
+        });
+    })
+  </script>
+</html>
