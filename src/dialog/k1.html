@@ -1,0 +1,38 @@
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 20px 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  .k1 .common-style {border: 1px solid #ccc;outline-style: none;height: 30px;}
+  .k1 .box-item {width: 100%;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #f1f1f1;}
+  .k1 .todo {display: inline-block;float: right;height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .k1 .todo:hover {opacity: .9;}
+  .k1 .start-time ,
+  .k1 .end-time {display: inline-block;width: 100px;height: 30px;border: 1px solid #ccc;vertical-align: middle;}
+  .k1 .start-time {margin-left: 30px;}
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box k1">
+  <div class="box-item">
+    测试技能课程考核试卷
+    <a class="todo">去完成</a>
+  </div>
+  <div class="box-item">
+    <div class="start-time"></div>
+    至
+    <div class="end-time"></div>
+  </div>
+  <div class="box-item">
+    作业说明
+  </div>
+  <div class="box-item">
+    关联作业
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>
