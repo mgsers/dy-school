@@ -21,6 +21,7 @@
       <a class="g1">教务管理办公室 编辑人员</a>
       <a class="h1">院教务处 日程表目录-课程</a>
       <a class="h2">院教务处 日程表目录-课程2</a>
+      <a class="i1">院教务处 大纲管理 编辑教学大纲</a>
     </div>
   </body>
   <script type="text/javascript">
@@ -35,7 +36,11 @@
         type: 2,
         title: '编辑能力发展方向',
         area: ['500px', '346px'],
-        content: ['a1.html','no']
+        content: ['a1.html','no'],
+        btn: ['haha'],
+        btn1: function() {
+          console.log('sss')
+        }
         });
     })
 
@@ -137,6 +142,16 @@
         area: ['480px', '710px'],
         content: ['h2.html','no']
         });
+    })
+
+    //i1
+    $('.i1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '编辑教学大纲',
+        area: ['480px', '710px'],
+        content: ['i1.html','no']
+      })
     })
   </script>
 </html>

@@ -1,0 +1,65 @@
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 20px 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  .i1 .common-style {border: 1px solid #ccc;outline-style: none;height: 30px;}
+  .i1 .box-item {width: 100%;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #f1f1f1;}
+  .i1 .outline-select {margin-left: 57px;width: 150px;}
+  .i1 .class-type-select {margin-right: 10px;margin-left: 57px;width: 80px;}
+  .i1 .class-select {width: 150px;}
+  .i1 .order-man {width: 100px;margin-left: 71px;text-indent: 10px;}
+  .i1 .same-input {width: 50px;margin-left: 57px;margin-right: 10px;text-indent: 10px;}
+
+  .i1 .checking span {padding: 7px 10px;margin-left: 5px;background-color: #EEEBEB;border-radius: 4px;cursor: pointer;}
+  .i1 .checking span:first-child {margin-left: 70px;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box i1">
+  <div class="box-item">
+    大纲管理
+    <select class="outline-select common-style" name="">
+      <option value="1">课程</option>
+    </select>
+  </div>
+  <div class="box-item">
+    选择课程
+    <select class="class-type-select common-style" name="">
+      <option value="">全部</option>
+    </select>
+    <select class="class-select common-style" name="">
+      <option value="">历史</option>
+    </select>
+  </div>
+  <div class="box-item">
+    负责人
+    <input type="text" class="order-man common-style" name="" value="">
+  </div>
+  <div class="box-item">
+    训练周期
+    <input type="text" class="common-style same-input" name="" value=""> 天
+  </div>
+  <div class="box-item">
+    循环周期
+    <input type="text" class="common-style same-input" name="" value=""> 天
+  </div>
+  <div class="box-item">
+    循环次数
+    <input type="text" class="common-style same-input" name="" value=""> 次
+  </div>
+  <div class="box-item">
+    课程学分
+    <input type="text" class="common-style same-input" name="" value=""> 学分
+  </div>
+  <div class="box-item">
+    关联课程
+    <select class="outline-select common-style" name="">
+      <option value="1">课程</option>
+    </select>
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>
