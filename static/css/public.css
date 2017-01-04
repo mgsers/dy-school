@@ -296,7 +296,7 @@ textarea:-ms-input-placeholder {
 }
 
 .f-z20 {
-    font-size: 2px;
+    font-size: 20px;
 }
 
 .f-z18 {
@@ -325,6 +325,14 @@ textarea:-ms-input-placeholder {
 
 .w-1000 {
     width: 1000px;
+}
+
+.wd200 {
+    width: 200px;
+}
+
+.wd500 {
+    width: 500px;
 }
 
 .f-w400 {
@@ -373,6 +381,10 @@ textarea:-ms-input-placeholder {
 
 .bt {
     border-top: 1px solid #dbdbdb;
+}
+
+.brf2 {
+    border-right: 1px solid #f2f2f2;
 }
 
 .btf1 {
@@ -433,4 +445,7 @@ textarea:-ms-input-placeholder {
 
 .bbdd {box-shadow: 0 0 10px #e4ebf1;}
 
+.v-a-m {
+    vertical-align: middle;
+}
 /*# sourceMappingURL=public.css.map */
