@@ -1,0 +1,66 @@
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 10px 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  ul, li {padding: 0;margin: 0;}
+  a {text-decoration: none;}
+  a, a:visited {color: #9ea4a7;}
+  .l6 .attr-select {margin-right: 10px;width: 100px;height: 30px;border: 1px solid #ccc;}
+  .l6 .task-search {display: inline-block;margin-top: 10px;width: 220px;height: 280px;}
+  .l6 .task-search-ipt {width: 100%;height: 34px;border: 1px solid #ccc;text-indent: 10px;font-size: 14px;outline-style: none;}
+  .l6 .task-search-box {width: 100%;height: 250px;margin-top: -1px;border: 1px solid #ccc;overflow-y: auto;}
+  .l6 .task-item {padding: 10px;border-bottom: 1px solid #ccc;cursor: pointer;}
+  .l6 .task-item:hover {background-color: #fafafa;}
+  .l6 .task-detail {display: inline-block;position: relative;margin-left: 15px;margin-top: 10px;padding: 10px 20px;width: 500px;height: 284px;background-color: #fcfcfc;vertical-align: top;}
+  .l6 .task-detail-con {display: inline-block;width: 230px;margin-top: -10px;margin-left: 20px;vertical-align: top;color: #666;}
+  .l6 .task-title {font-size: 16px;font-weight: 600;color: #000;}
+  .l6 .down {position: absolute;top: 150px;left: 30px;font-size: 12px;cursor: pointer;}
+  .l6 .down:hover {color: #e7ba40;}
+  .l6 .task-head {height: 150px;}
+  .l6 .task-ect {font-size: 12px;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box l6">
+  <p>
+    能力属性
+    <select class="attr-select" name="" id="">
+      <option value="">全部</option>
+    </select>
+    状态
+    <select class="attr-select" name="">
+      <option value="">安排过的</option>
+    </select>
+  </p>
+  <div class="task-search">
+    <input type="text" class="task-search-ipt" placeholder="输入关键字搜索">
+    <div class="task-search-box">
+      <div class="task-item">中国手游发展史</div>
+      <div class="task-item">初级测试dsdsd</div>
+      <div class="task-item">初级测试dsdsd</div>
+      <div class="task-item">初级测试dsdsd</div>
+      <div class="task-item">初级测试dsdsd</div>
+      <div class="task-item">初级测试dsdsd</div>
+      <div class="task-item">初级测试dsdsd</div>
+    </div>
+  </div>
+  <div class="task-detail">
+    <div class="task-head">
+      <p class="task-title">测试任务</p>
+      <p>提交提交初级测试dsdsd初级测试dsdsd</p>
+    </div>
+    <div class="task-ect">
+      <p>能力属性： 测试</p>
+      <p>学分：3分</p>
+      <p>周期性：周期间隔1天，循环5天</p>
+    </div>
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>

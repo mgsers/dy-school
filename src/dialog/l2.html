@@ -1,0 +1,63 @@
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 10px 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  ul, li {padding: 0;margin: 0;}
+  a {text-decoration: none;}
+  a, a:visited {color: #9ea4a7;}
+  .l2 .attr-select {margin-right: 10px;width: 100px;height: 30px;border: 1px solid #ccc;}
+  .l2 .class-search {display: inline-block;margin-top: 10px;width: 220px;height: 280px;}
+  .l2 .class-search-ipt {width: 100%;height: 34px;border: 1px solid #ccc;text-indent: 10px;font-size: 14px;outline-style: none;}
+  .l2 .class-search-box {width: 100%;height: 250px;margin-top: -1px;border: 1px solid #ccc;overflow-y: auto;}
+  .l2 .class-item {padding: 10px;border-bottom: 1px solid #ccc;cursor: pointer;}
+  .l2 .class-item:hover {background-color: #fafafa;}
+  .l2 .class-detail {display: inline-block;position: relative;margin-left: 15px;margin-top: 10px;padding: 30px 20px;width: 500px;height: 284px;background-color: #fcfcfc;vertical-align: top;}
+  .l2 .class-detail-con {display: inline-block;width: 230px;margin-top: -10px;margin-left: 20px;vertical-align: top;color: #666;}
+  .l2 .class-title {font-size: 16px;font-weight: 600;color: #000;}
+  .l2 .down {position: absolute;top: 150px;left: 30px;font-size: 12px;cursor: pointer;}
+  .l2 .down:hover {color: #e7ba40;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box l2">
+  <p>
+    能力属性
+    <select class="attr-select" name="" id="">
+      <option value="">全部</option>
+    </select>
+    状态
+    <select class="attr-select" name="">
+      <option value="">安排过的</option>
+    </select>
+  </p>
+  <div class="class-search">
+    <input type="text" class="class-search-ipt" placeholder="输入关键字搜索">
+    <div class="class-search-box">
+      <div class="class-item">中国手游发展史</div>
+      <div class="class-item">初级测试dsdsd</div>
+      <div class="class-item">初级测试dsdsd</div>
+      <div class="class-item">初级测试dsdsd</div>
+      <div class="class-item">初级测试dsdsd</div>
+      <div class="class-item">初级测试dsdsd</div>
+      <div class="class-item">初级测试dsdsd</div>
+    </div>
+  </div>
+  <div class="class-detail">
+    <img src="" alt="" width="200" height="110">
+    <span class="down">通用作业名称</span>
+    <div class="class-detail-con">
+      <p class="class-title">中国手游发展史</p>
+      <p><span>dssdsddsdsdsd</span><span>(60人评价)</span></p>
+      <p>讲师：踩踩踩</p>
+      <p>初级测试dsdsd初级测试dsdsd初级测试dsdsd初级测试dsdsd初级测试dsdsd初级测试dsdsd初级测试dsdsd初级测试dsdsd</p>
+    </div>
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>

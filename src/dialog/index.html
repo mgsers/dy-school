@@ -22,9 +22,16 @@
       <a class="g1">教务管理办公室 编辑人员</a>
       <a class="h1">院教务处 日程表目录-课程</a>
       <a class="h2">院教务处 日程表目录-课程2</a>
+      <a class="h3">院教务处 日程表目录-课程3</a>
       <a class="i1">院教务处 大纲管理 编辑教学大纲</a>
       <a class="j1">院教务处 课程管理 创建课程</a>
       <a class="k1">学员 学习计划</a>
+      <a class="l1">班主任 排课 日程表-周</a>
+      <a class="l2">班主任 排课 选择课程</a>
+      <a class="l3">班主任 排课 线下授课</a>
+      <a class="l4">班主任 排课 编辑课程</a>
+      <a class="l5">班主任 排课 安排任务</a>
+      <a class="l6">班主任 排课 选择任务</a>
     </div>
   </body>
   <script type="text/javascript">
@@ -147,6 +154,16 @@
         });
     })
 
+    //h3
+    $('.h3').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '初级测试技能作业',
+        area: ['480px', '770px'],
+        content: ['h3.html','no']
+        });
+    })
+
     //i1
     $('.i1').on('click',function(){
       layer.open({
@@ -174,6 +191,66 @@
         title: '测试工具说明作业',
         area: ['400px', '400px'],
         content: ['k1.html','no']
+      })
+    })
+
+    //l1
+    $('.l1').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '安排课程',
+        area: ['600px', '310px'],
+        content: ['l1.html','no']
+      })
+    })
+
+    //l2
+    $('.l2').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '安排课程',
+        area: ['800px', '500px'],
+        content: ['l2.html','no']
+      })
+    })
+
+    //l3
+    $('.l3').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '安排线下授课',
+        area: ['422px', '342px'],
+        content: ['l3.html','no']
+      })
+    })
+
+    //l4
+    $('.l4').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '哈哈哈哈课程',
+        area: ['422px', '400px'],
+        content: ['l4.html','no']
+      })
+    })
+
+    //l5
+    $('.l5').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '安排任务',
+        area: ['422px', '650px'],
+        content: ['l5.html','no']
+      })
+    })
+
+    //l6
+    $('.l6').on('click',function(){
+      layer.open({
+        type: 2,
+        title: '选择任务',
+        area: ['800px', '500px'],
+        content: ['l6.html','no']
       })
     })
   </script>

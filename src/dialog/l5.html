@@ -1,0 +1,58 @@
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 0 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  ul, li {padding: 0;margin: 0;}
+  a {text-decoration: none;}
+  a, a:visited {color: #9ea4a7;}
+  .l5 .common-style {border: 1px solid #ccc;outline-style: none;height: 30px;text-indent: 10px;}
+  .l5 .box-item {width: 100%;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #f1f1f1;}
+  .l5 .class-time ,
+  .l5 .class-place,
+  .l5 .class-num {display: inline-block;margin-left: 28px;height: 30px;vertical-align: middle;}
+  .l5 .class-time {width: 200px;background-color: #ccc;}
+  .l5 .class-place {width: 200px;border: 1px solid #ccc;}
+  .l5 .class-num {width: 50px;border: 1px solid #ccc;text-indent: 10px;}
+  .l5 .task-textarea {width: 260px;height: 90px;margin-left: 28px;border: 1px solid #ccc;padding: 10px;vertical-align: middle;}
+  .l5 .class-select {margin-left: 26px;margin-right: 20px;width: 100px;height: 30px;border: 1px solid #ccc;}
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box l5">
+  <div class="box-item">
+      选择任务
+  </div>
+  <div class="box-item">
+      开放时间
+      <div class="class-time"></div>
+  </div>
+  <div class="box-item">
+      阅卷人&nbsp;
+      <div class="class-place"></div>
+  </div>
+  <div class="box-item">
+      任务要求
+      <textarea class="task-textarea" placeholder="请填写任务要求"></textarea>
+  </div>
+  <div class="box-item">
+      作业类型
+      <select name="" class="class-select">
+        <option value="">团队</option>
+      </select>
+      人数
+      <input type="text" class="class-num">
+  </div>
+  <div class="box-item">
+      任务资料
+  </div>
+  <div class="box-item">
+      试卷
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>

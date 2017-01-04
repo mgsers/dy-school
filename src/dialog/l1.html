@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+</head>
+<style>
+  * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+  .box {padding: 0 20px 10px 20px;font-size: 14px;line-height: 20px;}
+  ul, li {padding: 0;margin: 0;}
+  a {text-decoration: none;}
+  a, a:visited {color: #9ea4a7;}
+  .l1 .common-style {border: 1px solid #ccc;outline-style: none;height: 30px;text-indent: 10px;}
+  .l1 .box-item {width: 100%;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #f1f1f1;}
+  .l1 .box-item.class-choose:hover {color: #e7ba40;cursor: pointer;}
+
+  /* 按钮样式 */
+  .layer-btn {margin-top: 10px;padding: 10px 0 12px;text-align: right;pointer-events: auto;user-select:none;-webkit-user-select:none;}
+  .layer-btn .commit {height: 28px;line-height: 28px;padding: 0 15px;border: 1px solid #dedede;border-radius: 2px;font-weight: 400;cursor: pointer;text-decoration: none;background-color: #e7ba40;border-color: #e7ba40;color: #fff;outline: none;}
+  .layer-btn .commit:hover {opacity: .9;}
+</style>
+<div class="box l1">
+  <div class="box-item class-choose">
+    <span>
+      选择课程
+    </span>
+  </div>
+  <div class="box-item">
+    课程开放时间
+    <input type="text" class="common-style">
+    至
+    <input type="text" class="common-style">
+  </div>
+  <div class="box-item">
+    安排线下授课
+  </div>
+  <div class="layer-btn" style="text-align:center;">
+    <button class="commit" type="button">保存</button>
+  </div>
+</div>
